@@ -21,5 +21,5 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Show the initial section (home)
-    navigateToSection("home");
+    navigateToSection("aboutme");
 });
