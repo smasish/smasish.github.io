@@ -1,20 +1,21 @@
 document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll("nav a");
     const sections = document.querySelectorAll("section");
 
-    sections.forEach(section => {
-        const link = document.querySelector(`nav ul li a[href="#${section.id}"]`);
+    links.forEach(link => {
         link.addEventListener("click", function(event) {
             event.preventDefault();
-            navigateToSection(section.id);
+            const targetId = this.getAttribute("href").substring(1);
+            navigateToSection(targetId);
         });
     });
 
     function navigateToSection(sectionId) {
         sections.forEach(section => {
             if (section.id === sectionId) {
-                section.classList.add("active");
+                section.style.display = "block";
             } else {
-                section.classList.remove("active");
+                section.style.display = "none";
             }
         });
     }
