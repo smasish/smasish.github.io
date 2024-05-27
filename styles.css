@@ -42,6 +42,9 @@
     vertical-align: middle;
 }
 
+.teaching-list {
+    padding-left: 20px; /* Adjust the value as needed */
+}
 
 nav {
     background-color: #333;
