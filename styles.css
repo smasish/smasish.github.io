@@ -43,8 +43,11 @@
 }
 
 .teaching-list {
-    padding-left: 20px; /* Adjust the value as needed */
+    list-style-position: inside; /* Ensures bullets are inside the padding */
+    padding-left: 20px; /* Adjust the padding value as needed */
+    margin-left: 20px; /* Additional margin to increase space */
 }
+
 
 nav {
     background-color: #333;
