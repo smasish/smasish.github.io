@@ -44,8 +44,8 @@
 
 .teaching-list {
     list-style-position: inside; /* Ensures bullets are inside the padding */
-    padding-left: 20px; /* Adjust the padding value as needed */
-    margin-left: 20px; /* Additional margin to increase space */
+    padding-left: 120px; /* Adjust the padding value as needed */
+    margin-left: 120px; /* Additional margin to increase space */
 }
 
 
