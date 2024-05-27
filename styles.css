@@ -15,6 +15,7 @@
 
 #aboutme .right-column {
     flex: 2;
+    max-width: 600px; /* Set a specific max-width for the right column */
 }
 
 @media (max-width: 768px) {
@@ -33,6 +34,7 @@
     margin-right: 5px;
     color: #0077b5; /* LinkedIn's brand color */
 }
+
 
 nav {
     background-color: #333;
