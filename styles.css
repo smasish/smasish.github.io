@@ -1,3 +1,39 @@
+#aboutme .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#aboutme .left-column,
+#aboutme .right-column {
+    flex: 1;
+    padding: 10px;
+}
+
+#aboutme .left-column {
+    max-width: 300px; /* Adjust the max-width as needed */
+}
+
+#aboutme .right-column {
+    flex: 2;
+}
+
+@media (max-width: 768px) {
+    #aboutme .container {
+        flex-direction: column;
+    }
+
+    #aboutme .left-column,
+    #aboutme .right-column {
+        max-width: 100%;
+    }
+}
+
+.fab.fa-linkedin {
+    font-size: 1.2em;
+    margin-right: 5px;
+    color: #0077b5; /* LinkedIn's brand color */
+}
+
 nav {
     background-color: #333;
 }
