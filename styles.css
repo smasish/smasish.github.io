@@ -35,6 +35,13 @@
     color: #0077b5; /* LinkedIn's brand color */
 }
 
+.icon {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
 
 nav {
     background-color: #333;
