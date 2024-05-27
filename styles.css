@@ -42,15 +42,23 @@
     vertical-align: middle;
 }
 
-.teaching-list {
-    list-style-position: inside; /* Ensures bullets are inside the padding */
-    padding-left: 120px; /* Adjust the padding value as needed */
-    margin-left: 120px; /* Additional margin to increase space */
+#Teaching {
+    text-align: center;
 }
+
+.teaching-list {
+    display: inline-block;
+    text-align: left; /* Align the list items to the left within the centered container */
+    padding-left: 20px; /* Optional: Add padding for better appearance */
+}
+#Publication {
+    text-align: center;
+}
+
 .publication {
-    list-style-position: inside; /* Ensures bullets are inside the padding */
-    padding-left: 120px; /* Adjust the padding value as needed */
-    margin-left: 120px; /* Additional margin to increase space */
+    display: inline-block;
+    text-align: left; /* Align the list items to the left within the centered container */
+    padding-left: 20px; /* Optional: Add padding for better appearance */
 }
 
 
