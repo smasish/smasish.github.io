@@ -154,31 +154,6 @@ h1, h2 {
     max-width: 600px;
 }
 
-.schedule {
-    list-style: none;
-}
-
-.schedule-item {
-    padding: 10px 15px;
-    border-bottom: 1px solid #ddd;
-}
-
-.schedule-item:last-child {
-    border-bottom: none;
-}
-
-.time {
-    font-weight: bold;
-    color: #4CAF50;
-}
-
-.activity {
-    display: block;
-    margin-top: 5px;
-    color: #555;
-}
-
-/* About Me Section */
 .fab.fa-linkedin {
     font-size: 1.2em;
     margin-right: 5px;
@@ -199,10 +174,6 @@ h1, h2 {
 
 .teaching-list li, .publications li {
     margin-bottom: 10px;
-}
-
-#Teaching, #Publication {
-    text-align: center;
 }
 
 /* Navigation */
@@ -265,3 +236,4 @@ section.active {
         min-width: 100%;
     }
 }
+
