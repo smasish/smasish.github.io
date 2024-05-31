@@ -140,7 +140,7 @@ h1, h2 {
 .section-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .column {
@@ -223,4 +223,22 @@ section.active {
 }
 
 /* Responsive styling for the sections */
-@media (max-width:
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    .section-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        min-width: 100%;
+    }
+}
+
