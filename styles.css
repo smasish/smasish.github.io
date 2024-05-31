@@ -49,6 +49,17 @@
     }
 }
 
+@media (max-width: 768px) {
+    #Education .container {
+        flex-direction: column;
+    }
+
+    #Education .left-column,
+    #Education .right-column {
+        max-width: 100%;
+    }
+}
+
 .fab.fa-linkedin {
     font-size: 1.2em;
     margin-right: 5px;
