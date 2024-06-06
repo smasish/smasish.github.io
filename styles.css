@@ -12,6 +12,20 @@
     justify-content: center;
 }
 
+#Publications .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#Teaching .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 #aboutme .left-column,
 #aboutme .right-column {
     flex: 1;
@@ -24,11 +38,31 @@
     padding: 10px;
 }
 
+#Publications .left-column,
+#Publications .right-column {
+    flex: 1;
+    padding: 10px;
+}
+
+#Teaching .left-column,
+#Teaching .right-column {
+    flex: 1;
+    padding: 10px;
+}
+
 #aboutme .left-column {
     max-width: 300px; /* Adjust the max-width as needed */
 }
 
 #Education .left-column {
+    max-width: 300px; /* Adjust the max-width as needed */
+}
+
+#Publications .left-column {
+    max-width: 300px; /* Adjust the max-width as needed */
+}
+
+#Teaching .left-column {
     max-width: 300px; /* Adjust the max-width as needed */
 }
 
@@ -38,6 +72,16 @@
 }
 
 #Education .right-column {
+    flex: 2;
+    max-width: 600px; /* Set a specific max-width for the right column */
+}
+
+#Publications .right-column {
+    flex: 2;
+    max-width: 600px; /* Set a specific max-width for the right column */
+}
+
+#Teaching .right-column {
     flex: 2;
     max-width: 600px; /* Set a specific max-width for the right column */
 }
@@ -60,6 +104,28 @@
 
     #Education .left-column,
     #Education .right-column {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #Publications .container {
+        flex-direction: column;
+    }
+
+    #Publications .left-column,
+    #Publications .right-column {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #Teaching .container {
+        flex-direction: column;
+    }
+
+    #Teaching .left-column,
+    #Teaching .right-column {
         max-width: 100%;
     }
 }
